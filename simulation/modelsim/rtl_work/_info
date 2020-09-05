@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim
+Eseconds_counter
+Z1 w1573153125
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/GUCian/H S5/Digital System Design/Ass1_Counter/seconds_counter.vhd
+Z5 FD:/GUCian/H S5/Digital System Design/Ass1_Counter/seconds_counter.vhd
+l0
+L4
+V6_>3Gm>Z<Z:`RfSg8jci_2
+!s100 Chd88D5FjB8OTFFH;PTCG1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1573154297
+!i10b 1
+Z8 !s108 1573154296.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/GUCian/H S5/Digital System Design/Ass1_Counter/seconds_counter.vhd|
+Z10 !s107 D:/GUCian/H S5/Digital System Design/Ass1_Counter/seconds_counter.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Acountto60
+R2
+R3
+DEx4 work 15 seconds_counter 0 22 6_>3Gm>Z<Z:`RfSg8jci_2
+l18
+L11
+VK]_72Wa]lVl>9=RXKDg522
+!s100 9_`e=1lEF_VQ?4A8ni`G<3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseconds_counter_vhd_tst
+Z13 w1573153615
+R2
+R3
+R0
+Z14 8D:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim/seconds_counter.vht
+Z15 FD:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim/seconds_counter.vht
+l0
+L30
+VF1IjoWmnI=K`N06IgV]>R1
+!s100 _@JmNNWP_@cY8K]1NJgN]3
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1573154297.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim/seconds_counter.vht|
+Z18 !s107 D:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim/seconds_counter.vht|
+!i113 1
+R11
+R12
+Aseconds_counter_arch
+R2
+R3
+DEx4 work 23 seconds_counter_vhd_tst 0 22 F1IjoWmnI=K`N06IgV]>R1
+l49
+L32
+VC3El:ScNejJgLPHGGfZ6z2
+!s100 BU_k^eXnTF31=GlRm92QJ0
+R6
+31
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12

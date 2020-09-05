@@ -1,0 +1,247 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do seconds_counter_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/GUCian/H S5/Digital System Design/Ass1_Counter/seconds_counter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:18:16 on Nov 07,2019
+# vcom -reportprogress 300 -93 -work work D:/GUCian/H S5/Digital System Design/Ass1_Counter/seconds_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seconds_counter
+# -- Compiling architecture countTo60 of seconds_counter
+# End time: 21:18:17 on Nov 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {D:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim/seconds_counter.vht}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:18:17 on Nov 07,2019
+# vcom -reportprogress 300 -93 -work work D:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim/seconds_counter.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seconds_counter_vhd_tst
+# -- Compiling architecture seconds_counter_arch of seconds_counter_vhd_tst
+# End time: 21:18:17 on Nov 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  testbenchForCounter
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" testbenchForCounter 
+# Start time: 21:18:18 on Nov 07,2019
+# ** Error: (vsim-3170) Could not find 'testbenchForCounter'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/vhdl/altera
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/vhdl/220model
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/vhdl/sgate
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/vhdl/altera_mf
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/vhdl/altera_lnsim
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/vhdl/cyclonev
+#             D:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim/rtl_work
+#             D:/GUCian/H S5/Digital System Design/Ass1_Counter/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./seconds_counter_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.seconds_counter_vhd_tst(seconds_counter_arch)
+# vsim work.seconds_counter_vhd_tst(seconds_counter_arch) 
+# Start time: 21:18:18 on Nov 07,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.seconds_counter_vhd_tst(seconds_counter_arch)
+# Loading work.seconds_counter(countto60)
+add wave -position insertpoint sim:/seconds_counter_vhd_tst/*
+force -freeze sim:/seconds_counter_vhd_tst/clk50 1 0, 0 {250 ps} -r 500
+noforce sim:/seconds_counter_vhd_tst/l1
+noforce sim:/seconds_counter_vhd_tst/l2
+force -freeze sim:/seconds_counter_vhd_tst/pause 0 0
+force -freeze sim:/seconds_counter_vhd_tst/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/seconds_counter_vhd_tst/reset 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/seconds_counter_vhd_tst/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/seconds_counter_vhd_tst/pause 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 21:23:29 on Nov 07,2019, Elapsed time: 0:05:11
+# Errors: 1, Warnings: 0
